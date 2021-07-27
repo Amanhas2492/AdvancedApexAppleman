@@ -1,0 +1,6 @@
+<aura:component>
+<aura:method name="myMethodInChild" action="{!c.doAction}" access="public">
+    <aura:attribute name="param1" type="string" default="Anand"/>
+    <aura:attribute name="param2" type="string" default="Manhas"/>
+</aura:method>
+</aura:component>	
