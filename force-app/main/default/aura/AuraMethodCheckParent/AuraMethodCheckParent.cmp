@@ -1,0 +1,6 @@
+<aura:component>
+<lightning:card title="Parent Component">
+    <c:AuraMethodCheck aura:id="childCmp"/>
+    <lightning:button name="ShowChild" variant="success" label="Click" onclick="{!c.clickMe}"/>
+</lightning:card>
+</aura:component>	
